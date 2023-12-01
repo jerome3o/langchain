@@ -78,7 +78,7 @@ chain.invoke({"topic": "bears"})
 How is the prompt actually being formatted under the hood? We can see that by running the following code
 
 ```
-prompt_value = prompt.format_prompt(topic="bears")
+prompt_value = prompt.format_messages(topic="bears")
 model.convert_prompt(prompt_value)
 ```
 
